@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #ff702a;
+    --text-color: #fff;
+    --footer-color: #1e1c2a;
+    --big-font: 3rem;
+    --h2-font: 2, 25rem;
+    --p-font: 0.9rem;
+}
+
+/**-----------start header--**/
+.header-bg {
+    background-image: url(img/banner1.png);
+    background-size: cover;
+    width: 1519px;
+    height: 800px;
+}
+
+
+
+.navbar {
+    display: flex;
+    margin-left: 60%;
+    padding-top: 2%;
+
+}
+
+.navbar a {
+    color: var(--footer-color);
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+    transition: .4s;
+}
+
+.header-text {
+    width: 30%;
+    margin-left: 7%;
+    padding-top: 15%;
+
+}
+
+.header-text h1 {
+    font-size: var(--big-font);
+}
+
+.header-text p {
+    line-height: 1.7;
+}
+
+.header-btn {
+    padding: 15px 25px;
+    margin-top: 2%;
+    border: 0;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 0.5rem;
+    background-color: var(--main-color);
+}
+
+/**----------------menu start------------------**/
+.menu {
+    margin: 5% 0;
+}
+
+.menu-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-img {
+    max-width: 100%;
+    width: 500px;
+    height: 723px;
+}
+
+.menu-text h1 {
+    font-size: var(--big-font);
+
+}
+
+.menu-text p {
+    line-height: 1.7rem;
+    padding: 10px 0;
+}
+
+.menu-text li {
+    font-weight: 600;
+    color: rgb(70, 70, 70);
+    align-items: left;
+
+}
+
+.menu-text .bx {
+    color: #16D887;
+    font-size: 20px;
+}
+
+/**-----------my plans-------------**/
+.heading {
+    text-align: center;
+
+}
+
+.p-container {
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+/**-----------------section 3------------**/
+.s-3 {
+    width: 1140px;
+    height: 200px;
+    position: center;
+    border-radius: 8px;
+    margin: 3% 13%;
+    background-image: linear-gradient(135deg, rgba(255, 166, 0, 0.242), rgba(0, 255, 255, 0.443)), url(img/watch.png);
+}
+
+.section-3text {
+    padding-left: 3%;
+    padding-top: 5%;
+
+}
+
+.section-3text h1 {
+    color: var(--text-color);
+}
+
+.call-btn {
+    background-color: #fff;
+    color: var(--main-color);
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 3px;
+}
+
+/**-------------------footer start--------------**/
+.f-box {
+    width: 1600px;
+    height: 577px;
+    background-color: var(--footer-color);
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.f-text {
+    width: 30%;
+    color: var(--text-color);
+    margin-right: 200px;
+}
+
+.form {
+    color: var(--text-color);
+
+}
+
+.f-input {
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 10px;
+
+}
+
+.f-btn {
+    padding: 10px 30px;
+    margin-top: 10px;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.icon {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.icon img {
+    margin-left: 5px;
+}
