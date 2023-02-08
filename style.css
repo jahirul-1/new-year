@@ -65,10 +65,13 @@
     padding: 15px 25px;
     margin-top: 2%;
     border: 0;
-    font-weight: 600;
-    color: #fff;
     border-radius: 0.5rem;
     background-color: var(--main-color);
+}
+
+.header-btn a {
+    color: #fff;
+    font-weight: 600;
 }
 
 /**----------------menu start------------------**/
@@ -145,12 +148,16 @@
 
 .call-btn {
     background-color: #fff;
-    color: var(--main-color);
     font-weight: 600;
     margin-top: 10px;
     padding: 10px 30px;
     border: 0;
     border-radius: 3px;
+}
+
+.call-btn a {
+    color: var(--main-color);
+    font-weight: 600;
 }
 
 /**-------------------footer start--------------**/
@@ -187,8 +194,12 @@
 .f-btn {
     padding: 10px 30px;
     margin-top: 10px;
-    color: var(--main-color);
+
+}
+
+.f-btn a {
     font-weight: 600;
+    color: var(--main-color);
 }
 
 .icon {
